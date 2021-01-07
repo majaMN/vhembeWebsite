@@ -1296,6 +1296,22 @@ footer .contact-form button.filled-button:hover {
 	}
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+td{
+	font-size: small;
+}
+tr td ul.a {
+  list-style-type: circle-full;
+}
 @media (max-width: 992px) {
 	.navbar .navbar-brand {
 		position: absolute;
